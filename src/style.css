@@ -450,7 +450,7 @@ button:focus {
 /* --------- */
 .project-section {
   position: relative !important;
-  padding-top: 150px !important;
+  padding-top: 5rem !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
 }
@@ -576,6 +576,10 @@ button:focus {
   font-size: 24px;
 }
 
+#experiences{
+  padding-top: 5rem;
+}
+
 .project-cards-container, .work-experience-container{
   display: flex;
   justify-content: center;
@@ -692,7 +696,7 @@ a, .company-name {
 
 .about-section {
   position: relative !important;
-  padding-top: 70px !important;
+  padding-top: 5rem !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
