@@ -4,7 +4,6 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import { useSelector } from 'react-redux';
 
-
 const Project = ({ image, title, description, ghLink, project_detail_images }) => (
   <Col md={4} className="project-card">
     <ProjectCard
@@ -16,7 +15,6 @@ const Project = ({ image, title, description, ghLink, project_detail_images }) =
     />
   </Col>
 );
-
 
 function Projects() {
   const projects = useSelector((state) => state.projectData.projects);

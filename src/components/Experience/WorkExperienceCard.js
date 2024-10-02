@@ -32,6 +32,7 @@ function WorkExperienceCard(props) {
         </ul>
       </div>
     </div>
+    
   );
 }
 

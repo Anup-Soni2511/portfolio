@@ -30,7 +30,7 @@ function WorkExperience() {
   const workExperiences = useSelector((state) => state.workExperienceData.experiences);
   return (
     <section id="experience">
-    <Container fluid className="experience-section" id="experiences">
+    <Container fluid className="experience-section" id="experiences" style={{paddingTop:"5rem"}}>
       <Container>
         <h1 className="experience-heading">
           Work <strong className="purple">Experiences</strong>
