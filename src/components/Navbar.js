@@ -6,6 +6,8 @@ import logo from "../Assets/logo.png";
 import { Link } from "react-scroll";
 import { CgFileDocument } from "react-icons/cg";
 import { AiOutlineUser, AiOutlineFundProjectionScreen } from "react-icons/ai";
+import { TbSettingsCode } from "react-icons/tb";
+import { TbFolderCode } from "react-icons/tb";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -30,7 +32,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-        <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 8 8"><path fill="#c770f0" d="M4 0L0 3h1v4h2V5h2v2h2V2.97L8 3z" className="img-fluid logo"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 8 8"><path fill="#0e74a7" d="M4 0L0 3h1v4h2V5h2v2h2V2.97L8 3z" className="img-fluid logo"/></svg>
           {/* <img src={logo} className="img-fluid logo" alt="brand" /> */}
         </Navbar.Brand>
         <Navbar.Toggle
@@ -65,7 +67,7 @@ function NavBar() {
                 duration={500}
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> Skills
+                <TbSettingsCode style={{ marginBottom: "2px" }} /> Skills
               </Nav.Link>
             </Nav.Item>
 
@@ -77,7 +79,7 @@ function NavBar() {
                 duration={500}
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen style={{ marginBottom: "2px" }} /> Projects
+                <TbFolderCode style={{ marginBottom: "2px" }} /> Projects
               </Nav.Link>
             </Nav.Item>
 

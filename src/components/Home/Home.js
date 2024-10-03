@@ -34,7 +34,7 @@ function Home() {
                   <BsFillEnvelopeFill style={{ marginRight: "0.5rem" }} />
                   <a
                     href="mailto:anupsoni2526@gmail.com"
-                    style={{ textDecoration: "none", color: "#FF00FF" }}
+                    style={{ textDecoration: "none", color: "#0e74a7" }}
                   >
                     anupsoni2526@gmail.com
                   </a>
