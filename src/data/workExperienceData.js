@@ -9,15 +9,11 @@ const workExperienceData = [
         responsibilities: [
           'Developing and maintaining web applications.',
 
-          'Collaborated with a team of developers to design and implement robust and \
-           scalable Python-based solutions, web applications \
-           using Django Rest Framework and ReactJS.',
+          'Collaborated with a team of developers to design and implement robust and scalable Python-based solutions, web applications using Django Rest Framework and ReactJS.',
           
-          'Utilized version control systems, primarily Git, for efficient \
-          collaboration and code management.',
+          'Utilized version control systems, primarily Git, for efficient collaboration and code management.',
           
-          'Participated in code reviews to ensure code quality,\
-           performance, and adherence to coding standards.',
+          'Participated in code reviews to ensure code quality, performance, and adherence to coding standards.',
         ],
         website: 'https://www.codetrade.io/',
         logo: codetradeLogo
